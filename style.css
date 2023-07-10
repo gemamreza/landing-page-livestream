@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column-center {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-2 {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  margin-left: -10px !important;
+  margin-right: 10px !important;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.column-center-2 {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row-2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #008675;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.header-right {
+  float: right;
+  margin-right: 20%;
+  padding-top: 40px;
+}
+
+.logo {
+  margin-left: 20%;
+  width: 100px;
+}
+
+.logo-content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  width: 20%;
+}
+
+.tagline {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: -20px;
+}
+
+.contact-section {
+  margin-top: 50px;
+  float: left;
+  width: 50%;
+}
+
+.whatsapp {
+  float: left;
+  margin-top: -10px;
+}
+
+.telephone {
+  float: right;
+  margin-top: -10px;
+}
+
+.wa-number {
+  color: #008675;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.phone-number {
+  color: #008675;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  float: right;
+  text-decoration: none;
+}
+
+.content {
+  background-color: #008675;
+  float: left;
+  height: 340px;
+  margin-top: -8% ;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  left: 0 !important;
+  right: 0 !important;
+  position: relative;
+}
+
+.content-img {
+  width: 450px;
+  text-align: center;
+  height: 300px;
+  float: right;
+}
+
+.content-section-text {
+  float: left;
+  width: 50%;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  padding-left: 20%;
+}
+
+.content-section-img{
+  padding-right: 20% !important;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  color: white;
+}
+
+.footer {
+  margin-top: 10%;
+}
+
+.footer-text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: #008675;
+  font-weight: bold;
+}
+
+.footer-btm {
+  background-color: #008675;
+  text-align: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 50px;
+  color: white;
+  margin-bottom: -50px;
+  margin-top: -20px;
+}
+
+.copyright {
+  padding-top: 15px;
+}
